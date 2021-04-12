@@ -39,11 +39,33 @@ async function main() {
   }
 
   for (const m of motorcycles) {
-    const moto = await prisma.motorcycle.create({
-      data: m
+    const temp = {
+      ...m,
+      motorcycleLinks: []
+    };
+
+    delete temp.motorcycleLinks;
+
+    const motorcycle = await prisma.motorcycle.create({
+      data: temp
     });
 
-    console.log('Moto created:', moto.id);
+    await prisma.$transaction(
+      m.motorcycleLinks.connect.map(link =>
+        prisma.motorcycleLinks.create({
+          data: {
+            ...link,
+            motorcycle: {
+              connect: {
+                id: motorcycle.id
+              }
+            }
+          }
+        })
+      ),
+    );
+
+    console.log('Moto created:', motorcycle.id);
   }
 
   console.log('Finished seed.');

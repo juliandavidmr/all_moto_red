@@ -14,7 +14,7 @@ generator client {
 
 model Motorcycle {
   id                String           @id @default(uuid())
-  name              String
+  name              String           @unique
   anotherName       String?
   description       String?
   createdAt         DateTime         @default(now())
@@ -46,10 +46,10 @@ model Motorcycle {
   maxSpeed          Int?
   modelYear         Int?
   active            Boolean          @default(true)
-  motorcycleType    MotorcycleType?  @relation(fields: [motorcycleTypeId], references: [id])
-  motorcycleTypeId  String?
-  motorcycleBrand   MotorcycleBrand? @relation(fields: [motorcycleBrandId], references: [id])
-  motorcycleBrandId String?
+  motorcycleType    MotorcycleType   @relation(fields: [motorcycleTypeId], references: [id])
+  motorcycleTypeId  String
+  motorcycleBrand   MotorcycleBrand  @relation(fields: [motorcycleBrandId], references: [id])
+  motorcycleBrandId String
   motorcycleLinks   MotorcycleLinks? @relation(fields: [motorcycleLinksId], references: [id])
   motorcycleLinksId String?
 
@@ -58,7 +58,7 @@ model Motorcycle {
 
 model MotorcycleLinks {
   id         String       @id @default(uuid())
-  link       String       @unique
+  link       String
   createdAt  DateTime     @default(now())
   updatedAt  DateTime     @updatedAt
   motorcycle Motorcycle[]

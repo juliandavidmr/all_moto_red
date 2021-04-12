@@ -14,38 +14,28 @@ module.exports = [
     seatHeight: 820,
     fuelCapacity: 14,
     production: '2014-present',
-    MotorcycleType: {
-      connectOrCreate: {
-        create: { name: 'Naked' },
-        where: {
-          name: 'Naked',
-        },
+    motorcycleType: {
+      connect: {
+        name: 'Naked'
       },
     },
-    MotorcycleBrand: {
-      connectOrCreate: [
-        {
-          create: { name: 'Yamaha' },
-          where: {
-            name: 'Yamaha',
-          },
-        },
-      ],
+    motorcycleBrand: {
+      connect: {
+        name: 'Yamaha',
+      },
     },
-    MotorcycleLinks: {
-      create: {
-        data: [
-          {
-            link: 'https://en.wikipedia.org/wiki/Yamaha_MT-09'
-          },
-          {
-            link: 'https://www.incolmotos-yamaha.com.co/vehiculo/mt09a/2317/'
-          },
-          {
-            link: 'https://www.yamaha-motor.ca/en/road/motorcycle/sport/2021-mt-09/2021-MT09AM'
-          }
-        ]
-      }
+    motorcycleLinks: {
+      connect: [
+        {
+          link: 'https://en.wikipedia.org/wiki/Yamaha_MT-09'
+        },
+        {
+          link: 'https://www.incolmotos-yamaha.com.co/vehiculo/mt09a/2317/'
+        },
+        {
+          link: 'https://www.yamaha-motor.ca/en/road/motorcycle/sport/2021-mt-09/2021-MT09AM'
+        }
+      ]
     }
   }
 ];

@@ -22,11 +22,11 @@ CREATE TABLE "Motorcycle" (
     "maxSpeed" INTEGER,
     "modelYear" INTEGER,
     "active" BOOLEAN NOT NULL DEFAULT true,
-    "motorcycleTypeId" TEXT,
-    "motorcycleBrandId" TEXT,
+    "motorcycleTypeId" TEXT NOT NULL,
+    "motorcycleBrandId" TEXT NOT NULL,
     "motorcycleLinksId" TEXT,
-    FOREIGN KEY ("motorcycleTypeId") REFERENCES "MotorcycleType" ("id") ON DELETE SET NULL ON UPDATE CASCADE,
-    FOREIGN KEY ("motorcycleBrandId") REFERENCES "MotorcycleBrand" ("id") ON DELETE SET NULL ON UPDATE CASCADE,
+    FOREIGN KEY ("motorcycleTypeId") REFERENCES "MotorcycleType" ("id") ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY ("motorcycleBrandId") REFERENCES "MotorcycleBrand" ("id") ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY ("motorcycleLinksId") REFERENCES "MotorcycleLinks" ("id") ON DELETE SET NULL ON UPDATE CASCADE
 );
 
@@ -55,10 +55,10 @@ CREATE TABLE "MotorcycleType" (
 );
 
 -- CreateIndex
-CREATE INDEX "Motorcycle.name_anotherName_index" ON "Motorcycle"("name", "anotherName");
+CREATE UNIQUE INDEX "Motorcycle.name_unique" ON "Motorcycle"("name");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "MotorcycleLinks.link_unique" ON "MotorcycleLinks"("link");
+CREATE INDEX "Motorcycle.name_anotherName_index" ON "Motorcycle"("name", "anotherName");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "MotorcycleBrand.name_unique" ON "MotorcycleBrand"("name");
