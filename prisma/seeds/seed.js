@@ -1,10 +1,10 @@
-const prisma = require('../client');
-const motorcycleBrands = require('./brands-data');
-const motorcycleTypes = require('./types-data');
-const motorcycles = require('./motos-data');
+import prisma from "../client";
+import motorcycleBrands from "./brands-data";
+import motorcycleTypes from "./types-data";
+import motorcycles from "./motos-data";
 
 async function main() {
-  console.log('Start seeding...');
+  console.log("Start seeding...");
 
   for (const b of motorcycleBrands) {
     const exists = await prisma.motorcycleBrand.findUnique({
@@ -16,9 +16,9 @@ async function main() {
         data: b
       });
 
-      console.log('Brand created:', brand.id);
+      console.log("Brand created:", brand.id);
     } else {
-      console.log('[Brand] Already exists:', b.name);
+      console.log("[Brand] Already exists:", b.name);
     }
   }
 
@@ -32,9 +32,9 @@ async function main() {
         data: t
       });
 
-      console.log('Brand created:', type.id);
+      console.log("Brand created:", type.id);
     } else {
-      console.log('[Type] Already exists:', t.name);
+      console.log("[Type] Already exists:", t.name);
     }
   }
 
@@ -65,10 +65,10 @@ async function main() {
       ),
     );
 
-    console.log('Moto created:', motorcycle.id);
+    console.log("Moto created:", motorcycle.id);
   }
 
-  console.log('Finished seed.');
+  console.log("Finished seed.");
 }
 
 module.exports = main;

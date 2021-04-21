@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="659ad5d5-d3e9-4631-be25-41f50a62da8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/motorcycle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/prisma.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/hello.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/motorcycles/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/motorcycle/[name].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/seed.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/stringify.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyStaticAssets.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/migrations/20210417061626_motored/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/seed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/seeds/brands-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/seeds/brands-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/seeds/motos-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/seeds/motos-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/seeds/seed.js" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/seeds/seed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/seeds/types-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/seeds/types-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/passport.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/contact.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/home.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/User.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap-social.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/bootstrap/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/lib/font-awesome/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/default/_default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/default/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/flatly/_flatly.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/flatly/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_collapse.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_labels-and-progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_sliders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_social-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_tabs-navs-pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_tooltips.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/mixins/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/mixins/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/mixins/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/mixins/_transparency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/gsdk/gsdk/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/modern/_modern.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/themes/modern/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/js/lib/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/js/lib/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/js/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/express-flash.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/express-session-types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/fbgraph.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/secrets.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contact.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/home.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/user.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/account/forgot.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/account/login.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/account/profile.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/account/reset.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/account/signup.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/api/facebook.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/api/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/flash.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.pug" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rScl5XypTdH2ob0mLotZd8fpDn" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\allmotorred\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\allmotorred\pages\motorcycle" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="659ad5d5-d3e9-4631-be25-41f50a62da8c" name="Default Changelist" comment="" />
+      <created>1618973082204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618973082204</updated>
+      <workItem from="1618973085225" duration="1862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
