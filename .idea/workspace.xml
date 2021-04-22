@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659ad5d5-d3e9-4631-be25-41f50a62da8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/motorcycle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/db/motorcycle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/motorcycle/[name].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/motorcycle/[name].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +54,7 @@
       <updated>1618973082204</updated>
       <workItem from="1618973085225" duration="1914000" />
       <workItem from="1619017426110" duration="24000" />
-      <workItem from="1619048425877" duration="9300000" />
+      <workItem from="1619048425877" duration="11735000" />
     </task>
     <servers />
   </component>
