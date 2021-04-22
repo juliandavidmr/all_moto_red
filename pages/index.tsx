@@ -33,7 +33,8 @@ export default function Home({ populars }: { populars: Motorcycle[] }) {
 								<h1>{ popular.name }</h1>
 								<h2>{ popular.anotherName }</h2>
 								<p>{ popular.description }</p>
-								<Link href={ '/motorcycle/' + encodeURIComponent(popular.name) } scroll={true}>
+								<Link href={ '/motorcycle/' + encodeURIComponent(popular.name) }
+								      scroll={true}>
 									<a>Ver</a>
 								</Link>
 							</section>
