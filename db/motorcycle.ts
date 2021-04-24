@@ -37,7 +37,8 @@ export function getMotorcycleNames() {
 			name: true
 		},
 		where: {
-			active: true
+			active: true,
+			published: true,
 		}
 	});
 }
