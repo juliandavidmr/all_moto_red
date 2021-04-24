@@ -21,6 +21,7 @@
     "tailwindcss": "^2.1.1"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^3.1.0",
     "@types/react": "^17.0.3",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.10",
