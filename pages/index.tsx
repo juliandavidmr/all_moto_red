@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { GetStaticPropsContext } from 'next'
-import { getPopularMotorcycles } from "../db/motorcycle";
+import { getPopularMotorcycles } from "../lib/db/motorcycle";
 import { Motorcycle } from '@prisma/client';
 import { normalizeJSON } from "../utils/stringify";
 import React from 'react';

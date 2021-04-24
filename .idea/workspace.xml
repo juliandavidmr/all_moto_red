@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659ad5d5-d3e9-4631-be25-41f50a62da8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ga.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/motorcycle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/motorcycle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/prisma.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/prisma.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/motorcycles/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/motorcycles/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/motorcycle/[name].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/motorcycle/[name].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/ca-certificate.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -43,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\allmotorred\lib" />
       <recent name="D:\allmotorred\pages\motorcycle" />
     </key>
   </component>
@@ -57,7 +67,7 @@
       <workItem from="1618973085225" duration="1914000" />
       <workItem from="1619017426110" duration="24000" />
       <workItem from="1619048425877" duration="11735000" />
-      <workItem from="1619224693226" duration="3867000" />
+      <workItem from="1619224693226" duration="5468000" />
     </task>
     <servers />
   </component>

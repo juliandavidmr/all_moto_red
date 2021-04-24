@@ -1,5 +1,5 @@
 import { Motorcycle, MotorcycleBrand, MotorcycleLinks, MotorcycleType } from '@prisma/client';
-import { getMotorcycleByName, getMotorcycleNames } from "../../db/motorcycle";
+import { getMotorcycleByName, getMotorcycleNames } from "../../lib/db/motorcycle";
 import React, { useState } from "react";
 import Layout from "../../components/Layout/Layout";
 import { GetStaticPaths, GetStaticPropsContext } from "next";

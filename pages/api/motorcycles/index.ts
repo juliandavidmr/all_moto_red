@@ -1,5 +1,5 @@
 import { normalizeJSON } from "../../../utils/stringify";
-import { getPopularMotorcycles } from "../../../db/motorcycle";
+import { getPopularMotorcycles } from "../../../lib/db/motorcycle";
 
 export default async (req, res) => {
 	const motorcycles = await getPopularMotorcycles();
