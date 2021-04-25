@@ -1,4 +1,11 @@
+import { Motorcycle, MotorcycleBrand, MotorcycleLinks, MotorcycleType } from ".prisma/client";
 import prisma from "./prisma";
+
+export type MotorcyclePopulated =  Motorcycle & {
+	motorcycleLinks: MotorcycleLinks[],
+	motorcycleType: MotorcycleType,
+	motorcycleBrand: MotorcycleBrand
+};
 
 export function getMotorcycleByName(motorcycleName: string) {
 	return prisma.motorcycle.findFirst({
