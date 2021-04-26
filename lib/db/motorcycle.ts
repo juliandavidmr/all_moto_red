@@ -21,7 +21,7 @@ export function getMotorcycleByName(motorcycleName: string) {
 	});
 }
 
-export function getPopularMotorcycles() {
+export function getPopularMotorcycles(args?: { take?: number }) {
 	return prisma.motorcycle.findMany({
 		where: {
 			active: true
@@ -34,9 +34,27 @@ export function getPopularMotorcycles() {
 		orderBy: {
 			viewCount: 'asc'
 		},
-		take: 20
+		take: args?.take || 20,
 	});
 }
+
+export function updateViewCount(motorcycleId: string) {
+	if (process.env.NODE_ENV === 'development') {
+		return Promise.resolve(true);
+	}
+
+	return prisma.motorcycle.update({
+		where: {
+			id: motorcycleId,
+		},
+		data: {
+			viewCount: {
+				increment: 1,
+			}
+		}
+	});
+}
+
 
 export function getMotorcycleNames() {
 	return prisma.motorcycle.findMany({
